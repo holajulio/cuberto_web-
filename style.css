@@ -38,9 +38,11 @@ header h2 {
 img {
     height: auto;
     display: block;
-    margin: 0 auto 20px; /* Alinea la imagen al centro horizontalmente */
+    margin: 0 auto 20px;
 }
-
+.titti{
+    text-align: left;
+}
 .row {
     display: flex;
     justify-content: center;
@@ -49,6 +51,7 @@ img {
 .pie {
     background-color: black;
     color: white;
-    padding: 20px; /* Añade "px" para especificar la cantidad de relleno */
-    text-align: center; /* Alinea el texto al centro */
+    padding: 20px;
+    text-align: center;
+    border: 100%;
 }
