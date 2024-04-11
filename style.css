@@ -1,29 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.pie{
-    background-color: black;
-}
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 340px;
+    max-width: 35%;
 
-img {
-    width: 100px;
-    height: auto;
-    display: block;
-    margin: auto;
+}
+header{
+    padding: 25px;
+    text-align: left;
+    font-size: large;
+    
+}
+header h1{
+    font-size: 2em;
+    margin: 0;
 }
