@@ -1,31 +1,54 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 340px;
+    margin: 0 auto; /* Alinea el margen horizontalmente al centro */
     max-width: 35%;
+}
 
-}
-header{
+header {
     padding: 25px;
-    text-align: left;
+    text-align: center; /* Alinea el texto al centro */
     font-size: large;
-    
 }
-header h1{
+
+header h1 {
     font-size: 2em;
     margin: 0;
     color: rgb(6, 161, 140);
 }
-header h2{
+
+header h2 {
     font-size: 1em;
     margin: 0;
     color: black;
 }
-.enca{
+.container{
+    margin: 0 auto;
+}
+.enca {
     font-size: 2em;
     margin: 0;
 }
-.tit{
+
+.tit {
     font-size: 3em;
     margin: 0;
     color: rgb(142, 142, 142);
+}
+
+img {
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Alinea la imagen al centro horizontalmente */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.pie {
+    background-color: black;
+    color: white;
+    padding: 20px; /* Añade "px" para especificar la cantidad de relleno */
+    text-align: center; /* Alinea el texto al centro */
 }
