@@ -13,4 +13,19 @@ header{
 header h1{
     font-size: 2em;
     margin: 0;
+    color: rgb(6, 161, 140);
+}
+header h2{
+    font-size: 1em;
+    margin: 0;
+    color: black;
+}
+.enca{
+    font-size: 2em;
+    margin: 0;
+}
+.tit{
+    font-size: 3em;
+    margin: 0;
+    color: rgb(142, 142, 142);
 }
