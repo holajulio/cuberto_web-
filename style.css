@@ -1,12 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto; /* Alinea el margen horizontalmente al centro */
+    margin: 0 auto;
     max-width: 35%;
 }
 
 header {
     padding: 25px;
-    text-align: center; /* Alinea el texto al centro */
+    text-align: center;
     font-size: large;
 }
 
@@ -21,9 +21,11 @@ header h2 {
     margin: 0;
     color: black;
 }
-.container{
+
+.container {
     margin: 0 auto;
 }
+
 .enca {
     font-size: 2em;
     margin: 0;
@@ -40,9 +42,11 @@ img {
     display: block;
     margin: 0 auto 20px;
 }
-.titti{
+
+.titti {
     text-align: left;
 }
+
 .row {
     display: flex;
     justify-content: center;
@@ -54,4 +58,44 @@ img {
     padding: 20px;
     text-align: center;
     border: 100%;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+    }
+
+    header {
+        font-size: medium;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .enca {
+        font-size: 1.5em;
+    }
+
+    .tit {
+        font-size: 2em;
+    }
+
+    img {
+        margin-bottom: 10px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .pie {
+        padding: 10px;
+        font-size: small;
+    }
+
+    .titti {
+        text-align: center;
+    }
 }
